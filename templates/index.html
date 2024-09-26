@@ -1,0 +1,11 @@
+<head>
+</head>
+<body>
+    {% for dt in data %}
+        <a href={{ dt.short_link }}>{{dt.short_link}} {{ dt.name }}</a><br>
+    {% endfor %}
+
+    {% for key, value in meta_data.items %}
+        <p>{{key}}: {{value}}</p>
+    {% endfor %}
+</body>
