@@ -1,2 +1,1 @@
-# link-shortner
-link shortner in django (bit.ly replica) retrive ip and user browser and device info  when a shortned link is clicked....
+
